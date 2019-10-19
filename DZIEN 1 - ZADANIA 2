@@ -1,0 +1,63 @@
+Java EE - Hibernate Relacje
+Zadania.
+Zadanie 1 - rozwiązywane z wykładowcą
+
+    W projekcie Spring01hibernate utwórz encje o nazwie Book.
+    Ustal nazwę tabeli bazy danych dla tej encji na books.
+    Encja ma zawierać następujące pola:
+
+    id
+    title
+    author
+    rating
+    publisher
+    description
+
+    Uruchom aplikację a następnie sprawdź czy w bazie danych pojawiła się tabela.
+
+Zadanie 2
+
+    Na podstawie przykładu z prezentacji utwórz klasę BookDao.
+    Klasa ma realizować podstawowe operacje na encji:
+
+    zapis encji
+    edycja encji
+    pobieranie po id
+    usuwanie po id
+
+Zadanie 3
+
+    Utwórz kontroler o nazwie BookController.
+    Utwórz akcje kontrolera które będą realizować następujące operacje:
+
+    zapis encji
+    edycja encji
+    pobieranie
+    usuwanie
+
+    Wszystkie dane wymagane do wykonania operacji mogą być zaszyte w kodzie akcji.
+
+Zadanie 4
+
+    W projekcie Spring01hibernate utwórz encje o nazwie Author.
+    Ustal nazwę tabeli bazy danych dla tej encji na authors.
+    Encja ma zawierać następujące pola:
+
+    id
+    firstName
+    lastName
+
+    Utwórz klasę AuthorDao - służącą do operacji na tej encji.
+    Utwórz kontroler, realizujący operacje CRUD (create, read, update, delete).
+
+Zadanie 5
+
+    W projekcie Spring01hibernate utwórz encje o nazwie Publisher.
+    Ustal nazwę tabeli bazy danych dla tej encji na publishers.
+    Encja ma zawierać następujące pola:
+
+    id
+    name
+
+    Utwórz klasę PublisherDao - służącą do operacji na tej encji.
+    Utwórz kontroler, realizujący operacje CRUD (create, read, update, delete).

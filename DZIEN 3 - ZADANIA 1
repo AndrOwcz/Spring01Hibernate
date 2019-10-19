@@ -1,0 +1,53 @@
+Java EE Spring - Walidacja
+Zadanie 1 - rozwiązywane z wykładowcą.
+
+    Uzupełnij projekt Spring01hibernate o odpowiednie zależności Mavena.
+    Dodaj plik tłumaczeń.
+    Uzupełnij ustawienia lokalizacyjne.
+    Sprawdź działanie programu.
+
+Zadanie 2 - rozwiązywane z wykładowcą.
+
+    Dla encji Book ustaw następujące ograniczenia:
+
+    title - minimum 5 znaków
+    rating - w przedziale 1 do 10
+    description - maksymalnie 600 znaków
+    author - pole wymagane
+    publisher - pole wymagane
+
+    Rozbuduj encję o pole:
+
+    pages - większe od 1
+
+    Utwórz kontroler o nazwie ValidationController.
+    Uzupełnij ziarno dla walidacji.
+    Sprawdź działanie walidacji w akcji kontrolera dostępnej pod adresem /validate.
+
+Zadanie 3
+
+    Zmodyfikuj akcję przekazując zbiór zawierający błędy do widoku.
+    Dodaj dla akcji widok, a następnie wyświetl w nim wszystkie błędy w postaci: Nazwa pola : nazwa błędu
+
+Zadanie 4
+
+    Dla encji Author ustaw następujące ograniczenia:
+
+    firstName - pole wymagane
+    lastName - pole wymagane
+
+    Rozbuduj encję Author o następujące pola:
+
+    pesel - dodaj walidację numeru pesel
+    email - poprawny adres email
+
+Zadanie 5
+
+    Dla encji Publisher ustaw następujące ograniczenia:
+
+    name - pole wymagane
+
+    Rozbuduj encję Publisher o następujące pola:
+
+    nip - dodaj walidację numeru nip
+    regon - dodaj walidację numeru regon

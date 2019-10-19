@@ -1,0 +1,42 @@
+Java EE - Spring Data
+Zadanie 1 - rozwiązywane z wykładowcą.
+
+    Uzupełnij projekt Spring01hibernate o odpowiednie zależności Mavena.
+    Dodaj adnotacje konfiguracyjne.
+    Utwórz pakiet zawierający repozytoria a w nim repozytorium dla klasy Book.
+    Sprawdź działanie programu.
+
+Zadanie 2 - rozwiązywane z wykładowcą.
+
+    Stwórz encję Category i połącz ją relacją z Book. Książka ma jedną kategorię.
+    W repozytorium dla klasy Book utwórz metody pobierające:
+
+    metodę wyszukującą książki dla zadanego tytułu.
+    metodę wyszukującą książki dla zadanej kategorii
+    metodę wyszukującą książki dla zadanego id kategorii
+
+Zadanie 3
+
+    W repozytorium dla klasy Book utwórz metody pobierające:
+
+    Listę książek dla zadanego autora.
+    Listę książek dla zadanego wydawcy
+    Listę książek dla określonego ratingu
+    Pierwszą książkę z zadanej kategorii, z sortowaniem po tytule.
+
+Zadanie 4
+
+    Utwórz repozytorium dla klasy Publisher.
+    Utwórz metody pobierające:
+
+    Wydawcę dla zadanego nipu,
+    Wydawcę dla zadanego regonu.
+
+Zadanie 5
+
+    Utwórz repozytorium dla klasy Author.
+    Utwórz metody pobierające:
+
+    Autora dla zadanego email,
+    Autora dla zadanego peselu,
+    Listę autorów o zadanym nazwisku.

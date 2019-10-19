@@ -1,0 +1,50 @@
+Java EE Spring - Formularze
+Zadania.
+Zadanie 1 - rozwiązywane z wykładowcą
+
+    W projekcie Spring01hibernate w kontrolerze BookController
+    Utwórz formularz, który pozwoli dodać obiekt klasy Book.
+    Dodaj możliwość wyboru wydawcy z listy rozwijalnej.
+    Zapisz obiekt do bazy danych.
+
+Zadanie 2 - rozwiązywane z wykładowcą
+
+    Dodaj akcję wyświetlającą listę wszystkich książek.
+    Skorzystaj z utworzonej wcześniej metody klasy BookDao wykorzystującą zapytanie JPQL.
+    Zmodyfikuj akcję zapisu formularza dodając przekierowanie do listy książek.
+
+Zadanie 3
+
+    Rozbuduj listę dodając linki umożliwiające przejście do edycji danych oraz usuwania danych.
+    Dodaj formularz edycji danych, zwróć uwagę na poprawne wypełnienie danych podczas edycji.
+    Dodaj akcję usuwania danych.
+    Dodaj zabezpieczenie przed przypadkowym usunięciem danych - dodatkową stronę na której wyświetlisz 2 linki: Potwierdź oraz Anuluj.
+
+Zadanie 4
+
+    Rozbuduj formularz o możliwość dodania autorów z listy rozwijalnej select.
+    Dodaj konwerter dla encji Author.
+
+Zadanie 5
+
+    Utwórz kontroler AuthorController, utwórz w nim akcje, które pozwolą:
+
+    wyświetlić listę wszystkich autorów
+    dodać autora
+    usunąć autora
+    edytować autora
+
+    Dla akcji dodawania oraz edycji utwórz formularz.
+    Utwórz linki nawigacyjne umożliwiające przechodzenie między akcjami - bez konieczności znania adresów URL.
+
+Zadanie 6
+
+    Utwórz kontroler PublisherController, utwórz w nim akcje, które pozwolą:
+
+    wyświetlić listę wszystkich wydawcę
+    dodać wydawcę
+    usunąć wydawcę
+    edytować wydawcę
+
+    Dla akcji dodawania oraz edycji utwórz formularz.
+    Utwórz linki nawigacyjne umożliwiające przechodzenie między akcjami - bez konieczności znania adresów URL.

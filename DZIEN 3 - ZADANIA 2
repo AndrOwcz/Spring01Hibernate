@@ -1,0 +1,37 @@
+Java EE Spring - Walidacja
+Zadanie 1 - rozwiązywane z wykładowcą.
+
+    Uzupełnij projekt o walidację formularzy dodawania/edycji książki.
+    Dodaj wyświetlanie błędów w formularzach.
+
+Zadanie 2 - rozwiązywane z wykładowcą.
+
+    Rozbuduj encję Author o pole zawierające rok urodzenia yearOfBirth.
+    Utwórz własny walidator, dopuszczający tylko osoby powyżej 18 roku życia.
+    Dodaj walidację i sprawdź działanie programu.
+
+Zadanie 3
+
+    Uzupełnij walidację formularzy dla kontrolerów i formularzy obsługujących encje:
+
+    Author
+    Publisher
+
+Zadanie 4
+
+    Rozbudujemy naszą aplikację o możliwość dodawania propozycji wydawniczych.
+    W tym celu rozbuduj encję Book o dodatkowe pole typu boolean proposition.
+    Utwórz kontroler PropositionController, utwórz w nim akcje, które pozwolą:
+
+    wyświetlić listę wszystkich propozycji
+    dodać propozycje
+    usunąć propozycje
+    edytować propozycje
+
+    Dla akcji dodawania oraz edycji utwórz formularz.
+    Dla propozycji wymaganymi polami są tylko
+
+    title
+    description
+
+    Utwórz odpowiednie grupy walidacji, oraz zmodyfikuj akcje dodawania książki, tak aby dało się dodać zarówno propozycję, z uproszczonym zestawem danych jak i książkę.

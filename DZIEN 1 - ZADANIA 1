@@ -1,0 +1,18 @@
+Java EE - Hibernate Tworzenie projektu
+Zadania.
+Zadanie 1 - rozwiązywane z wykładowcą
+
+    Otwórz IDE a następnie utwórz w nim projekt Maven o nazwie Spring01hibernate.
+    Uzupełnij zestaw zależności odpowiedzialnych za Spring MVC.
+    Uzupełnij podstawowy zestaw zależności dla korzystania z Hibernate.
+    Skorzystaj z zależności opisanych w prezentacji.
+
+Zadanie 2 - rozwiązywane z wykładowcą
+
+    W projekcie Spring01hibernate dodaj plik konfiguracyjny dla hibernate - persistence.xml.
+    Utwórz pakiet pl.coderslab.app.
+    Dodaj klasę konfiguracji.
+    Utwórz inicjalizator aplikacji.
+    Utwórz bazę danych o nazwie test za pomocą Workbench.
+    Utwórz ziarna konfiguracji dla Hibernate - skorzystaj z przykładów zawartych w prezentacji.
+    Uruchom i sprawdź działanie aplikacji.

@@ -1,0 +1,42 @@
+Java EE - Hibernate Relacje
+Zadania.
+Zadanie 1 - rozwiązywane z wykładowcą
+
+    Połącz klasę wydawcy i książkę relacją jeden do wielu.
+    Pamiętaj o zmianie geterów i seterów dla zmienionych pól.
+    Zmodyfikuj kontroler do obsługi książek tak, aby poprawnie wykonać wszystkie operacje.
+
+Zadanie 2
+
+    Połącz klasę autora i książkę relacją wiele do wielu.
+    Pamiętaj o zmianie geterów i seterów dla zmienionych pól.
+    Zmodyfikuj kontroler do obsługi książek tak, aby poprawnie wykonać wszystkie operacje.
+
+Zadanie 3
+
+    Utwórz klasę Person zawierającą pola
+    Encja ma zawierać następujące pola:
+
+    id
+    login
+    password
+    email
+
+    Utwórz klasę PersonDetails zawierającą pola
+    Encja ma zawierać następujące pola:
+
+    id
+    firstName
+    lastName
+    streetNumber
+    street
+    city
+
+    Połącz encje za pomocą relacji @OneToOne.
+    Utwórz kontroler, realizujący operacje CRUD (create, read, update, delete).
+
+Zadanie 4
+
+    Uzupełnij utworzone klasy Dao o metodę do pobierania listy wszystkich obiektów.
+    Wykorzystaj w tym celu JPQL.
+    W klasie BookDao dodaj metodę getRatingList(int rating), która na podstawie otrzymanego parametru pobierze książki o zadanym parametrze.
